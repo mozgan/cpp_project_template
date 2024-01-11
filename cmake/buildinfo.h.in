@@ -1,0 +1,12 @@
+#ifndef _BUILDINFO_H_
+#define _BUILDINFO_H_
+
+#include <string_view>
+
+struct BuildInfo {
+  static constexpr std::string_view kCommitSha{"@COMMIT_SHA@"};
+  static constexpr std::string_view kTimestamp{"@TIMESTAMP@"};
+  static constexpr std::string_view kVersion{"@PROJECT_VERSION@"};
+};
+
+#endif

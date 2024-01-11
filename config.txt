@@ -1,0 +1,90 @@
+# DO NOT MAKE ANY CHANGES ON THE LEFT SIDE OF THE EQUALITY!
+
+### === Project Author Info === ###
+P_AUTHOR_NAME = Author Name
+P_AUTHOR_MAIL = author@mail.com
+P_VENDOR_NAME = Vendor Name
+
+### === Project Info === ###
+P_NAME = MyProject
+P_DESCRIPTION = Description of MyProject.
+P_SUMMARY = Summary of MyProject.
+P_HOMEPAGE = http://www.homepage.com
+
+### === Project Version === ###
+P_VERSION_MAJOR = 0
+P_VERSION_MINOR = 0
+P_VERSION_PATCH = 0
+
+### === Target system processor === ###
+# (leave blank when not cross-compiling!)
+P_TARGET_PROCESSOR =
+
+### === Project Type === ###
+# - EXECUTABLE: Create binary file(s) from the directory `app`
+# - LIBRARY: Create library file from the directory `src`
+# - HEADER_ONLY: Create an interface from the directory `header-only`
+P_TYPE = EXECUTABLE
+
+### === Project Build Type === ###
+# - Debug: No optimization, asserts enabled, debug info included in executable. (-O0 -g)
+# - Release: high optimization level, no debug info, code or asserts. (-O3 -DNDEBUG)
+# - RelWithDebInfo: optimized, with debug info, but no debug (output) code or asserts. (-O2 -g -DNDEBUG)
+# - MinSizeRel: same as Release but optimizing for size rather than speed. (-Os -DNDEBUG)
+# (Default: Debug)
+P_BUILD_TYPE = Release
+
+### === Dependencies === ###
+P_DEPENDENCY_LIBRARIES =
+P_DEPENDENCY_PACKAGES =
+
+### === Installation Destinations === ###
+# (Default: /usr/local)
+P_INSTALL_PREFIX = /usr
+
+### === Compiler Options === ###
+P_CXX_VERSION = 20
+
+### === Interprocedural Optimization === ###
+ENABLE_IPO = OFF
+
+### === Valgrind Memcheck === ###
+ENABLE_MEMCHECK = OFF
+
+### === Clang Tidy Linter === ###
+ENABLE_CLANG_TIDY = OFF
+
+### === Static Code Analyzer === ###
+ENABLE_CPPCHECK = OFF
+
+### === Sanitizers === ###
+# Address Sanitizer (https://github.com/google/sanitizers/wiki/AddressSanitizer)
+ENABLE_ADDRESS_SANITIZER = OFF
+
+# Leak Sanitizer (https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer)
+ENABLE_LEAK_SANITIZER = OFF
+
+# Memory Sanitizer (https://github.com/google/sanitizers/wiki/MemorySanitizer)
+# - libc++: https://github.com/google/sanitizers/wiki/MemorySanitizerLibcxxHowTo
+ENABLE_MEMORY_SANITIZER = OFF
+
+# Thread Sanitizer (https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
+ENABLE_THREAD_SANITIZER = OFF
+
+# Undefined Behavior Sanitizer (https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+ENABLE_UNDEFINED_BEHAVIOR_SANITIZER = OFF
+
+### === Code Coverage === ###
+ENABLE_CODE_COVERAGE = OFF
+
+### === Code Formatting === ###
+ENABLE_FORMATTING = ON
+# Format style can be LLVM, Google, Chromium, Mozilla, WebKit, Microsoft, GNU, or file
+# (Default: file)
+FORMAT_STYLE = Google
+
+### === Doxygen Documentation === ###
+ENABLE_DOXYGEN = OFF
+
+### === Graphviz === ###
+ENABLE_GRAPHVIZ = OFF
